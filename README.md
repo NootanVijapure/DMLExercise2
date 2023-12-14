@@ -24,7 +24,8 @@ Add a new album titled "Greatest Hits" released in the year 2023 to the database
 Insert a new artist named "New Artist" from "Canada" into the Artists table.
 Update Queries:
 
-# Update the price of all albums in the "Pop" genre to $20.
+# Update
+the price of all albums in the "Pop" genre to $20.
 Increase the stock quantity of the album titled "Thriller" by 10 units.
 
 # Delete Queries:
