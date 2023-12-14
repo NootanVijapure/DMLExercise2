@@ -10,7 +10,7 @@ Artists:
 Columns: ArtistID (Primary Key), ArtistName, Country
 
 Exercise Tasks:
-
+note: add some data entries before fetching it
 # Select Queries:
 
 Retrieve all album titles along with their release years.
