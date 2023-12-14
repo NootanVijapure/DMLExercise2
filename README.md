@@ -1,38 +1,32 @@
-# DDL exercise
-Creating Tables:
-Create a table named Movies with the following columns:
-movie_id (integer)
-title (varchar, maximum length 100)
-director (varchar, maximum length 50)
-release_year (integer)
-genre (varchar, maximum length 50)
+# DML exercise
 
-Altering Tables:
-Alter the Movies table to add a new column named rating of type decimal(3, 1).
+Tables:
 
-Dropping Tables:
-Create a new table named Students with columns:
+Albums:
 
-student_id (integer)
-student_name (varchar, maximum length 50)
-age (integer)
-grade (varchar, maximum length 2)
-Then, drop the Students table.
+Columns: AlbumID (Primary Key), Title, ReleaseYear, Genre, Price, StockQuantity
+Artists:
 
-Truncating Tables:
-Create a table named Events with columns:
+Columns: ArtistID (Primary Key), ArtistName, Country
 
-event_id (integer)
-event_name (varchar, maximum length 100)
-date (date)
-location (varchar, maximum length 100)
-Insert some sample data into the Events table. Once done, truncate the table to remove all records while keeping the table structure intact.
+Exercise Tasks:
 
-Renaming Tables:
-Create a table named Restaurants with columns:
+# Select Queries:
 
-restaurant_id (integer)
-name (varchar, maximum length 50)
-cuisine (varchar, maximum length 50)
-location (varchar, maximum length 100)
-Rename the table to DiningSpots.
+Retrieve all album titles along with their release years.
+Display the genres available in the store without repetition.
+List all artists' names along with their respective countries.
+Fetch the album titles released in a specific year.
+
+# Insert Queries:
+
+Add a new album titled "Greatest Hits" released in the year 2023 to the database with a price of $15 and a stock quantity of 50.
+Insert a new artist named "New Artist" from "Canada" into the Artists table.
+Update Queries:
+
+# Update the price of all albums in the "Pop" genre to $20.
+Increase the stock quantity of the album titled "Thriller" by 10 units.
+
+# Delete Queries:
+Remove an album titled "Dangerous" from the database.
+Delete an artist named "Old Artist" from the Artists table.
